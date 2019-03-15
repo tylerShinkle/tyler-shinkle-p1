@@ -1,4 +1,4 @@
-Tyler Shinkle 
+Tyler Shinkle
 IT-DEV-160
 Project 1
 Due 3/19/2019
@@ -19,7 +19,12 @@ For this project I will be creating a 3 tutorials with a home page. The tutorial
 
 Each tutorial will have it's own page for a total of 4 pages.(including HOME PAGE)
 
+	*PAGE DESCRIPTIONS*
 
+			@Home
+			@Fonts
+			@Grids
+			@Loops
 ________________________________________________________________________________________________________
 
 
