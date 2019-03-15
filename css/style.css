@@ -28,7 +28,74 @@ nav ul li{
   font-size: 1.25em;
 }
 
-#greeting{
-  margin: 3em 0;
+section{
+  border: 2px solid white;
+  width: 80%;
+  margin: 5em auto;
+  padding: 3em;
   text-align: center;
+}
+section p{
+  width:80%;
+  margin:auto;
+  text-align: left;
+}
+
+section ul{
+  text-align: left;
+  list-style-type: none;
+  width:70%;
+  margin:auto;
+}
+
+section ul li{
+  margin: 1em 0;
+}
+
+footer{
+  text-align: center;
+  color:hsl(220,90%,75%);
+  background-color: white;
+  width:100%;
+  position:fixed;
+  bottom:0;
+  z-index: 1;
+}
+#greeting{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color:hsl(220,90%,75%);
+}
+
+a:hover{
+  color:blue;
+}
+
+a:active{
+  opacity: .5;
+}
+
+h2{
+  text-align: center;
+}
+
+.activeClass{
+  color:blue;
+}
+
+#logoContainer{
+  position:relative;
+  margin: auto;
+}
+.logo{
+  width:auto;
+  height: 150px;
+  margin:3em 2em 3em 2em;
+}
+
+.logo:hover{
+  opacity:.75;
 }

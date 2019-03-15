@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-        <title>Tutorials</title>
+        <title>Tutorials | Home</title>
         <meta charset="utf-8">
         <meta name="description" content="A few tutorials for Project-1">
         <meta name="keywords" content="HTML CSS Javascript">
@@ -22,18 +22,34 @@
 
             <nav>
               <ul>
-                <li>home</li>
-                <li>fonts</li>
-                <li>grids</li>
-                <li>loops</li>
+                <a href="index.html" class="activeClass"><li>home</li></a>
+                <a href="fonts.html"><li>fonts</li></a>
+                <a href="grids.html"><li>grids</li></a>
+                <a href="loops.html"><li>loops</li></a>
               </ul>
             </nav>
 
             <section>
               <h2 id="greeting"></h2>
+              <p>This website is will teach you how to...</p>
+              <br>
+              <ul>
+                <li>- Import fonts for web design using Google Fonts.</li>
+                <li>- Design grid layouts using CSS & HTML.</li>
+                <li>- Use Javascript to loop through an array and add data to an HTML document.</li>
+              </ul>
+              <br>
+              <p>To learn more about HTML5, CSS3 or Javascript click on the followign images...</p>
+              <div id="logoContainer">
+
+                <a href="https://www.w3schools.com/html/"><img  class="logo"src="images/html5.png" alt="html5 logo"></a>
+                <a href="https://www.w3schools.com/css/"><img  class="logo"src="images/css3.png" alt="css3 logo"></a>
+                <a href="https://www.w3schools.com/js/"><img  class="logo"src="images/js.png" alt="js logo"></a>
+              </div>
             </section>
 
             <footer>
+              <p>&copy;2019</p>
             </footer>
 
         </main>
