@@ -10,6 +10,7 @@
         <link rel="icon" href="images/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
     </head>
 
     <body>
@@ -21,6 +22,7 @@
             </header>
 
             <nav>
+              <!--navbar-->
               <ul>
                 <a href="index.html"><li>home</li></a>
                 <a href="fonts.html" class="activeClass"><li>fonts</li></a>
@@ -30,7 +32,33 @@
             </nav>
 
             <section>
-              <h2>fonts</h2>
+              <h2>How to import Google Fonts.</h2>
+              <p>To import a Google Font you must copy the appropriate link tag from the Google Font website <a href="https://fonts.google.com/">here.</a>You then will create a link tag in the &lt;head&gt; which has the appropriate attributes and values.</p>
+              <br>
+              <p>It should look something like this...</p>
+              <br>
+              <p>
+              <code>
+                  &lt;link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"&gt;
+              </code>
+              </p>
+              <br>
+              <p>Once the link is in place you can reference it in your CSS like this...</p>
+              <br>
+                <p><code>font-family: 'Questrial', sans-serif;</code></p>
+              <br>
+              <p>Notice how I used the family property from the URL in the link tag and put it in quotes.</p>
+              <br>
+              <br>
+              <p>Let's change fonts...</p>
+              <br>
+              <ul>
+                <li>If I wanted to change fonts the first thing I would do is add a link tag to the bottom of my &lthead&gt; element. We're going to use a font called 'Srisakdi'. It's link tag is as follows... </li>
+                <li>&lt;link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet"&gt;</li>
+                <li>Now we will reference this link and apply it to an element with an id of example like so...</li>
+                <li>#example{<br>font-family:'Srisakdi', sans-serif;<br>}</li>
+                <li id=example>That's it! We've successfully changed fonts for the example id!</li
+              </ul>
             </section>
 
             <footer>
@@ -38,6 +66,7 @@
             </footer>
 
         </main>
+        <!--link to js-->
         <script src="js/script.js"></script>
     </body>
 

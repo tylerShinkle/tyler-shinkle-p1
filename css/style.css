@@ -6,6 +6,7 @@ body{
   padding: 0;
   margin: 0;
   font-weight: bold;
+  line-height: 1.25em;
 }
 
 header{
@@ -50,6 +51,18 @@ section ul{
 
 section ul li{
   margin: 1em 0;
+}
+
+section p a{
+  color:blue;
+}
+
+section p a:hover{
+  opacity: .65;
+}
+
+section p a:active{
+  opacity: .45;
 }
 
 footer{
@@ -98,4 +111,12 @@ h2{
 
 .logo:hover{
   opacity:.75;
+}
+
+code{
+  font-size: 1em;
+}
+
+#example{
+  font-family: 'Srisakdi', sans-serif;
 }
