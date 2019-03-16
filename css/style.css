@@ -120,3 +120,48 @@ code{
 #example{
   font-family: 'Srisakdi', sans-serif;
 }
+
+.gridContainer1{
+  display: grid;
+  grid-template-columns: 10% 40% 10% 40%;
+  background-color: white;
+  color:hsl(220,90%,75%);
+  padding:.5em;
+}
+
+.gridContainer2{
+  display: grid;
+  grid-template-columns:50% 50%;
+  background-color: white;
+  color:hsl(220,90%,75%);
+  padding:.5em;
+}
+
+.gridItem{
+  background-color: hsl(220,90%,75%);
+  color:white;
+  border: 2px solid white;
+  padding:1em;
+  text-align: center;
+}
+pre{
+  text-align: left;
+}
+
+button{
+  background-color: white;
+  color:hsl(220,90%,75%);
+  border:none;
+  padding:.5em;
+  font-weight: bold;
+  font-family: 'Questrial', sans-serif;
+  font-size:1.25em;
+}
+
+button:hover{
+  opacity: .75;
+}
+
+button:active{
+  opacity: .5;
+}

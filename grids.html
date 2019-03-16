@@ -30,7 +30,94 @@
             </nav>
 
             <section>
-              <h2>grids</h2>
+              <h2>How to Make a Grid Layout</h2>
+              <br>
+              <p>Here is an example of a grid layout...</p>
+              <br>
+              <br>
+              <div class="gridContainer1" id="gridContainer">
+                <div class="gridItem">1</div>
+                <div class="gridItem">2</div>
+                <div class="gridItem">3</div>
+                <div class="gridItem">4</div>
+                <div class="gridItem">5</div>
+                <div class="gridItem">6</div>
+                <div class="gridItem">7</div>
+                <div class="gridItem">8</div>
+                <div class="gridItem">9</div>
+                <div class="gridItem">10</div>
+                <div class="gridItem">11</div>
+                <div class="gridItem">12</div>
+                <div class="gridItem">13</div>
+                <div class="gridItem">14</div>
+                <div class="gridItem">15</div>
+                <div class="gridItem">16</div>
+              </div>
+              <br>
+              <br>
+              <p id='para'>Here a 4 column grid is made, the first column is set @ 10% the width the second column at 40% width and so on as you can see in the grid. All of the grid items are used according to this pattern.</p>
+              <br>
+              <p>If you would like to look at an alternate grid click the button below.</p>
+              <br>
+              <br>
+              <button type="button" name="button" onclick="changeGrids(); changePara(); changeHtml(); changeCss()">CHANGE GRIDS</button>
+              <br>
+              <br>
+              <p>Their are code snippets below to give you an idea on how this works. The javascript for the above button is not included. Just know that .gridContainer1 class pertains to the 4 column grid and .gridContainer2 class pertains to the 2 column grid.</p>
+              <br>
+              <h4>HTML</h4>
+              <br>
+              <pre id=htmlCode>
+                &lt;div class="gridContainer1" id="gridContainer"&gt;
+                  &lt;div class="gridItem"&gt;1&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;2&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;3&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;4&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;5&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;6&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;7&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;8&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;9&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;10&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;11&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;12&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;13&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;14&gt;/div&lt;
+                  &lt;div class="gridItem"&gt;15&lt;/div&gt;
+                  &lt;div class="gridItem"&gt;16&gt;/div&lt;
+                &lt;/div&gt;
+              </pre>
+              <br>
+              <h4>CSS</h4>
+              <br>
+              <pre>
+                .gridContainer1{
+                &lt;!--The display grid property is set--&gt;
+                  display: grid;
+                &lt;!--The grid is set @ 4 columns the first @ 10 % width and so on--&gt;
+                  grid-template-columns: 10% 40% 10% 40%;
+                  background-color: white;
+                  color:hsl(220,90%,75%);
+                  padding:.5em;
+                }
+
+                .gridContainer2{
+                  display: grid;
+                  grid-template-columns:50% 50%;
+                  background-color: white;
+                  color:hsl(220,90%,75%);
+                  padding:.5em;
+                }
+
+                .gridItem{
+                  background-color: hsl(220,90%,75%);
+                  color:white;
+                  border: 2px solid white;
+                  padding:1em;
+                  text-align: center;
+                }
+
+              </pre>
             </section>
 
             <footer>
