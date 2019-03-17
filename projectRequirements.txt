@@ -22,9 +22,13 @@ Each tutorial will have it's own page for a total of 4 pages.(including HOME PAG
 	*PAGE DESCRIPTIONS*
 
 			@Home
+			Into to site with links to resources.
 			@Fonts
+			Explains how to import fonts, change the font with them.
 			@Grids
+			Show a multiple grid layouts with toggle button.
 			@Loops
+			Describe for loops and show input / output table.
 ________________________________________________________________________________________________________
 
 
@@ -50,14 +54,14 @@ ________________________________________________________________________________
 3. a table displaying the output of a for loop using javaScript
 
 	TECHNICAL SPECS
--The table will have two columns, one with a th of Input, the other of Output.
+-The table will have two columns, one with a the Input, the other with the Output.
 
 4. a grid layout explaining how grid layouts are coded
 
 	TECHNICAL SPECS
 	-4x4 grid
-	-<p> above with <code> tag displaying how the grid was made.
-	-button changing the id of grid and altering its CSS to change the height.
+	-<p> below with <code> tag displaying how the grid was made.
+	-button changing the class of grid and altering its CSS to change the layout.
 
 5. an unordered list explaining how a font was imported.
 
