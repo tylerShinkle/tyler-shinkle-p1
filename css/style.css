@@ -165,3 +165,17 @@ button:hover{
 button:active{
   opacity: .5;
 }
+
+#forTable{
+  text-align: center;
+}
+
+table,th,tr,td{
+  border:1px solid white;
+}
+table{
+  width: 100%;
+}
+th, td{
+  padding: 1em;
+}

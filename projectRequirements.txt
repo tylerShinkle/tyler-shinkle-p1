@@ -50,9 +50,7 @@ ________________________________________________________________________________
 3. a table displaying the output of a for loop using javaScript
 
 	TECHNICAL SPECS
-	-must use something like message=varExample for each iteration
-	-the iteration counter will assign its output to the <td> with an id matching the iterator.
-	-two columns one for the value of i and one for the output.
+-The table will have two columns, one with a th of Input, the other of Output.
 
 4. a grid layout explaining how grid layouts are coded
 
@@ -61,7 +59,7 @@ ________________________________________________________________________________
 	-<p> above with <code> tag displaying how the grid was made.
 	-button changing the id of grid and altering its CSS to change the height.
 
-5. an unordered list of  an imported font explaining how it was imported.
+5. an unordered list explaining how a font was imported.
 
 	TECHNICAL SPECS
 	- different <li> elements

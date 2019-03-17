@@ -4,7 +4,6 @@ var greeting=salutation+user+"are you ready to learn?";
 //var to toggle paragraph content.
 var x=true;
 
-
 var greetingEl=document.getElementById('greeting');
 greetingEl.textContent=greeting;
 
@@ -29,4 +28,24 @@ function changePara(){
     el.textContent="Here a 4 column grid is made, the first column is set at 10% the width the second column at 40% the width the third column at 10% the width and the fourth column is set at 40% the width as you can see in the grid. All of the grid items are used according to this pattern.";
     x=true;
   }
+}
+
+
+//Loops
+function forFunction(){
+  var i;
+  var count=0;
+  var sum=[];
+  var data=document.getElementsByClassName('datum');
+
+  for(i=0;i<=5;i++){
+    if(i%2==0){
+      data[i].textContent=count;
+      count++;
+    }else{
+      data[i].textContent=(count-1)*8;
+    }
+
+  }
+
 }
