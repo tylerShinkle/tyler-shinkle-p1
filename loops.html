@@ -33,24 +33,35 @@
               <h2>For loops in Javascript</h2>
               <br>
               <br>
-              <p>For loops look like this in Javascript...<p>
+              <p>For loops look like this in Javascript...</p>
               <br>
+              <p>
               <code>
                 var i;<br>
                 var sum=[];<br>
                 for (i=0; i <= 2; i++){<br>
-                  &nbsp;&nbsp;sum[i]=i*5;<br>
+                  &nbsp;&nbsp;sum[i]=i+5;<br>
                 }
               </code>
+              <p>
               <br>
               <br>
-              <p>The intput is 0, 1 and 2 because i is initialized at 0. After the condition is proven to be true the code is executed, then i is incremented accordingly.</p>
+              <p>The input is 0, 1 and 2 because i is initialized at 0. After the condition is proven to be true the code is executed, then i is incremented accordingly. (i++ means to increment i by 1) If this is confusing don't worry, just read on. </p>
               <br><br>
               <p>It goes like this...</p>
               <br>
-              <code>for(counter; condition;increment){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code to be executed when condition evaluates to true <br>}</code>
+              <p>
+              <code>for(counter; condition; increment){<br>&nbsp;&nbsp;code to be executed when condition evaluates to true; <br>}</code>
+              </p>
               <br><br>
-              <p>The input / output for te first example is displayed in this table.</p>
+              <ul>
+                <li>1. First the counter (usually i) is initialized.</li>
+                <li>2. Second the condition is evaluated. If it is true the code within the for loops curly brackets is executed. If it evaluates to false the loop terminates.</li>
+                <li>3. After the code block is executed the counter is incremented according to the third argument.(In this case i++ which means to increment by 1.)</li>
+              </ul>
+
+              <br><br>
+              <p>The input / output for the first example is displayed in this table.</p>
               <br>
               <p>Note: There is no return in this for loop, but the indices of the array are being set. (This is what is meant as output.)</p>
               <br>
@@ -62,20 +73,21 @@
                 </tr>
                 <tr id=rowOne>
                   <td class=datum>0</td>
-                  <td class=datum>0</td>
+                  <td class=datum>5</td>
                 </tr>
                 <tr id=rowTwo>
                   <td class=datum>1</td>
-                  <td class=datum>5</td>
+                  <td class=datum>6</td>
                 </tr>
                 <tr id=rowThree>
                   <td class=datum>2</td>
-                  <td class=datum>10</td>
+                  <td class=datum>8</td>
                 </tr>
               </table>
               <br>
               <br>
-              <button type="button" name="forButton" onclick="forFunction()">Multiply Input x8</button>
+              <h3>(testing JS)</h3>
+              <button type="button" name="forButton" onclick="forFunction()">Add 8 to Input Instead</button>
               <p id=loopEx></p>
             </section>
 

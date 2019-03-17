@@ -43,7 +43,7 @@ function forFunction(){
       data[i].textContent=count;
       count++;
     }else{
-      data[i].textContent=(count-1)*8;
+      data[i].textContent=(count-1)+8;
     }
 
   }
